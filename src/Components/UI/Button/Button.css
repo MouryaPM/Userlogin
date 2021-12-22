@@ -1,0 +1,18 @@
+.button {
+  font: inherit;
+  background-color: purple;
+  color: white;
+  padding: 0.75rem 3rem;
+  cursor: pointer;
+  border: 1px solid purple;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.button:disabled,
+.button:focus:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
